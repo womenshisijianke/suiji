@@ -1,6 +1,6 @@
-mjy :mjy.o
-     cc -o cc mjy
-mjy.o:mjy.c
-      cc -o mjy.c
+zty :zty.o
+     cc -o zty zty.o
+zty.o:zty.c
+      cc -o zty.c
 clean:
-     rm mjy.c
+     rm zty.o
