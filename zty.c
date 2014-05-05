@@ -4,12 +4,6 @@
 #include<student_info.h>
 main()
 {
-	#include<time.h>
-#include<stdlib.h>
-#include<stdio.h>
-#include<student_info.h>
-main()
-{
         int i,j;
     for (int i = 0; i < sizeof(info)/sizeof(struct student); ++i) {
                 printf("%d - %s\n", info[i].id, info[i].name);
